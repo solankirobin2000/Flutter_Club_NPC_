@@ -14,14 +14,13 @@ class FlutterApp extends StatelessWidget {
     return Sizer(
       builder: (context, orientation, deviceType) {
         return MaterialApp(
-          title: "FlutterApp",
+          title: "Club_NPC",
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             primarySwatch: Colors.blue,
           ),
           home: const BottomNavigation(),
         );
-
       },
     );
   }
